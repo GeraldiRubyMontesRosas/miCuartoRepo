@@ -15,7 +15,14 @@ def get_familia():
     rows = ["Ruby", "Fabian", "Dulce"]
     return rows
 
+
 @app.get("/superheroesDC")
 def get_superheroes():
     rows = ["Batman", "Superman", "Flash"]
+    return rows
+
+
+@app.get("/Postres")
+def get_superheroes():
+    rows = ["Browni", "Mufins", "Tartas"]
     return rows
